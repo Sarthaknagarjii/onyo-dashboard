@@ -1,0 +1,13 @@
+.sidebar {
+  background-color: #df5532;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  transition: all 0.3s;
+  z-index: 20;
+}
+
+.sidebar :global(.active) {
+  background-color: rgba(255, 255, 255, 0.2);
+}

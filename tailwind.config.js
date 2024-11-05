@@ -26,6 +26,7 @@ module.exports = {
           DEFAULT: "#df5532",
           hover: "#c94a2a",
         },
+        onyo: "#df5532",
       },
       fontFamily: {
         sans: ["var(--font-geist-sans)", ...fontFamily.sans],

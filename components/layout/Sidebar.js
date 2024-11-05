@@ -23,11 +23,10 @@ export default function Sidebar({ isOpen, toggleSidebar }) {
   return (
     <div
       className={`
-        fixed left-0 top-0 h-full
+        fixed left-0 top-0 h-full bg-[#df5532]
         transition-all duration-300 z-20
         ${isOpen ? "w-64" : "w-20"}
         md:relative
-        bg-[#df5532]
       `}
     >
       <div className="p-4 flex items-center justify-between">
